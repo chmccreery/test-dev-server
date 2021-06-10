@@ -4,6 +4,7 @@ jobs:
   semgrep:
     name: Scan
     runs-on: ubuntu-latest
+    if: (github.actor != 'dependabot[bot]')
     env:
       INPUT_PUBLISHURL: https://dev.semgrep.dev
     steps:
