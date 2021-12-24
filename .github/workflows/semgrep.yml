@@ -1,5 +1,15 @@
+
+on:
+  pull_request: {}
+  push:
+    branches:
+    - master
+    paths:
+    - .github/workflows/semgrep.yml
+    - bunions
+  schedule:
+  - cron: '0 0 * * *'
 name: Semgrep
-on: [pull_request]
 jobs:
   semgrep:
     name: Scan
