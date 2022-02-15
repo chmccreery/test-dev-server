@@ -12,6 +12,8 @@ jobs:
   semgrep:
     name: Scan
     runs-on: ubuntu-latest
+    env:
+      SEMGREP_AGENT_OPT_IN_FEATURES: pr-comment-autofix
     steps:
     - uses: actions/checkout@v2
     - uses: returntocorp/semgrep-action@v1
