@@ -1,2 +1,4 @@
+import xml
+
 5 == 5
-exit(3)
+exit(5)
