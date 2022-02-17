@@ -1,3 +1,3 @@
-import foo
+import xml
 
 exit(2)
