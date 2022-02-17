@@ -1,4 +1,4 @@
 import xml
 
 5 == 5
-exit(12)
+sys.exit(12)
