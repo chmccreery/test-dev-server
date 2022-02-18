@@ -4,7 +4,6 @@ from validate_email import validate_email
 from flask import jsonify
 from flask import request
 from flask import Response
-import xml
 from werkzeug.exceptions import (
     BadRequest,
     NotFound,
