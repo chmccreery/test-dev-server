@@ -1,3 +1,5 @@
 5 == 5
 6 == 6
-7 == 7
+
+s = socket.socket(doesnt, matter)
+s.bind(('0.0.0.0', 1337))
