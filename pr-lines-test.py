@@ -1,7 +1,7 @@
 5 == 5
 6 == 6
 
-"thisissingleline" == "thisissingleline"
+"thisishackweek" = "thisishackweek"
 
 import pdb;
 pdb.set_trace();
