@@ -8,4 +8,4 @@ hashes.MD5()
 # ok:insecure-hash-algorithm-md5
 hashes.SHA256()
 
-exit(1)
+exit(2)
