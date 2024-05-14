@@ -14,4 +14,4 @@ jobs:
       - name: Install Nango CLI
         run: |
           echo "hello"
-          sudo apt-get update && sudo apt-get install -y nango
+          npm install -g nango
