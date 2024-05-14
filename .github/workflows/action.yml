@@ -15,4 +15,5 @@ jobs:
         run: |
           echo "hello"
           npm install -g nango
-          nango --help 
+          nango --help
+          nango deploy --help
