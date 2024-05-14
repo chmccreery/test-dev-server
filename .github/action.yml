@@ -1,0 +1,17 @@
+name: Nango CLI Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Nango CLI
+        run: sudo apt-get update && sudo apt-get install -y nango
