@@ -2,8 +2,6 @@ name: Nango CLI Test
 
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
   test:
@@ -14,4 +12,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Install Nango CLI
-        run: sudo apt-get update && sudo apt-get install -y nango
+        run: |
+          echo "hello"
+          npm install -g nango
+          nango --help
+          nango deploy --help
