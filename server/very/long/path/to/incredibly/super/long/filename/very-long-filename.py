@@ -1,6 +1,3 @@
-5 == 5
-6 == 6
-
 from cryptography.hazmat.primitives import hashes
 
 if: 4 == 4
